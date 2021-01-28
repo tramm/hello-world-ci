@@ -9,7 +9,8 @@ jobs:
 
     docker:
       # specify the version you desire here
-      - image: cimg/node:15.6.0
+      - image: circleci/node:6.10
+
     steps:
       - checkout
 
